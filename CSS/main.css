@@ -50,6 +50,9 @@ a {
   background-color: #e1eeff !important;
   color: var(--blue-color) !important;
 }
+.active-btn i {
+  color: var(--blue-color) !important;
+}
 .active-blue {
   color: var(--blue-color);
 }
@@ -1013,6 +1016,8 @@ body > .body aside.left ul:last-of-type li.see-more div {
 body > .body aside.left ul li.see-more p span:last-of-type {
   position: absolute;
   right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 body > .body aside.left ul li.see-more p span:first-of-type {
   position: relative;
