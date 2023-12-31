@@ -48,7 +48,7 @@ a {
 }
 .active-btn {
   background-color: #e1eeff !important;
-  color: var(--blue-color);
+  color: var(--blue-color) !important;
 }
 .active-blue {
   color: var(--blue-color);
